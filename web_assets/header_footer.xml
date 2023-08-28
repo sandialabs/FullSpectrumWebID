@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+
+  <message id='app-header-local'>
+    <div class="AppHeader" style="display: flex; flex-direction: row; justify-content: space-between">
+      <a href="http://sandia.gov/" rel="noopener noreferrer" target="_blank" class="SnlLink">
+        <img alt="Sandia National Laboratories logo" height="25" longdesc="http://sandia.gov" src="/snl-logo.svg" />
+      </a>
+
+      ${support-link}
+
+      ${info-link}
+    </div>
+  </message>
+
+  <message id='app-header-web'>
+  <div class="header-subsite--wrapper-default">
+    <header class="header-subsite standard header--scroll" role="banner" style="position: relative; box-shadow: none; margin-bottom: 5px;">
+      <div class="wrapper">
+        <a href="https://www.sandia.gov/index.html">
+          <div class="logo-transparent">
+            <p class="logo">Sandia National Laboratories</p>
+          </div>
+        </a>
+        <div class="nav-top" style="float: right;">
+          <a class="visuallyhidden" name="mainnav"></a>
+          <!--<a class="show-directory" href="https://www.sandia.gov/directory.html" aria-expanded="false" aria-label="Site Directory" class="show-directory">All external websites</a>
+<div class="search-container--closed"><a class="search-btn-link" aria-label="Search" href="https://www.sandia.gov/search/">Search Sandia.gov</a></div>-->
+
+          <div aria-label="main navigation" class="core-nav-transparent core-nav-transparent--visible" role="navigation">
+            <ul role="navigation" class="secondary-links">
+              <li id="search-text-link">
+                <a aria-label="Search" href="https://www.sandia.gov/search/">Search Sandia.gov</a>
+              </li>
+              <li id="directory-text-link">
+                <a href="https://www.sandia.gov/directory.html" aria-expanded="false" aria-label="Site Directory">All Sandia Websites</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="WebInfoAndContactSmallScreen">
+        <li>${info-link}</li>
+        <li>${support-link}</li>
+      </ul>
+      <nav class="mega-menu mega-menu--closed" id="megaMenu" role="menu" style="display: none;">
+        <div class="wrapper">
+          <p class="tag-line">Exceptional service in the national interest</p>
+          <div class="row-col">
+            <div class="col-2">
+              <p>
+                <a href="https://www.sandia.gov/about/index.html">About</a>
+                <span class="m-menu--activate" role="button"></span>
+              </p>
+              <ul class="nav-core-links" style="display: block;">
+                <li>
+                  <a href="https://www.sandia.gov/about/community/index.html">Community Involvement</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/about/leadership/index.html">Leadership</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/about/mission/index.html" title="Mission">Mission</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/about/environment/index.html">Environmental Responsibility</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/about/history/index.html">History</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/about/diversity/index.html">Inclusion &amp; Diversity</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/about/social_media/index.html">Social Media</a>
+                </li>
+              </ul>
+            </div>
+            <!--<div class="col-2"><p>Programs</p><ul class="nav-core-links"><li><a href="site://sandia.gov/missions/nuclear_weapons/index">Nuclear Weapons</a></li><li><a href="site://sandia.gov/missions/defense_systems/index">Defense Systems &amp; Assessments</a></li><li><a href="http://energy.sandia.gov/">Energy</a></li><li><a href="site://sandia.gov/missions/international_homeland_nuclear_security/index">Global Security</a></li></ul></div>-->
+            <div class="col-2">
+              <p>
+                <a href="https://www.sandia.gov/news/index.html">News</a>
+                <span class="m-menu--activate" role="button"></span>
+              </p>
+              <ul class="nav-core-links" style="display: block;">
+                <li>
+                  <a href="https://share-ng.sandia.gov/news/resources/news_releases/">News Releases</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/news/media_resources/index.html">Media Contacts &amp; Resources</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/news/publications/labnews/index.html">Lab News</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/news/image_gallery/index.html">Image Gallery</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/news/events/index.html">Events</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/news/publications/index.html">Publications</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/news/videos/index.html">Videos</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p>
+                <a href="https://www.sandia.gov/research/index.html">Research</a>
+                <span class="m-menu--activate" role="button"></span>
+              </p>
+              <ul class="nav-core-links" style="display: block;">
+                <li>
+                  <a href="https://www.sandia.gov/missions/index.html">Programs</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/research/research_foundations/index.html">Research Foundations</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/research/facilities/technology_deployment_centers/index.html">Technology Deployment Centers</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/research/laboratory_directed_research/index.html">Laboratory Directed Research &amp; Development</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/research/research_development_100_awards/index.html">R&amp;D 100 Awards</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p>
+                <a href="https://www.sandia.gov/working_with_sandia/index.html">Partnerships</a>
+                <span class="m-menu--activate" role="button"></span>
+              </p>
+              <ul class="nav-core-links" style="display: block;">
+                <li>
+                  <a href="https://www.sandia.gov/working_with_sandia/technology_partnerships/index.html">Technology Partnerships</a>
+                </li>
+                <li>
+                  <a href="https://ip.sandia.gov">Licensing / Technology Transfer</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/working_with_sandia/technology_partnerships/universities/index.html">University Partnerships</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/working_with_sandia/technology_partnerships/local.html">Local Opportunities &amp; Economic Impact</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/working_with_sandia/prospective_suppliers/index.html">Prospective Suppliers</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/working_with_sandia/current_suppliers/index.html">Current Suppliers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p>
+                <a href="https://www.sandia.gov/careers/index.html">Careers</a>
+                <span class="m-menu--activate" role="button"></span>
+              </p>
+              <ul class="nav-core-links" style="display: block;">
+                <li>
+                  <a href="https://www.sandia.gov/careers/ps-forward.html">View All Jobs</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/careers/students_postdocs/index.html">Students &amp; Postdocs</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/careers/benefits_perks/index.html">Benefits &amp; Perks</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/careers/hiring_process/index.html">Hiring Process</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/careers/life_at_sandia/index.html">Life at Sandia</a>
+                </li>
+                <li>
+                  <a href="https://www.sandia.gov/careers/special_programs/index.html">Special Programs</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul class="nav-core-links" style="display: block;">
+                <li>
+                  <a class="nav-core--locations" href="https://www.sandia.gov/locations/index.html">Locations</a>
+                </li>
+                <li>
+                  <a class="nav-core--contact" href="https://www.sandia.gov/contact_us/index.html">Contact Us</a>
+                </li>
+                <li>
+                  <a class="nav-core--emp-resources" href="https://www.sandia.gov/resources/employees/index.html">Employee Resources</a>
+                </li>
+                <li>
+                  <a class="nav-core--security-toolcart" href="https://www.sandia.gov/security/index.html">Security Toolcart</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a class="fab fa-facebook-f" aria-label="Facebook" rel="noopener noreferrer" target="_blank" href="http://www.facebook.com/SandiaLabs"></a>
+            </li>
+            <li>
+              <a class="fab fa-twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank" href="http://www.twitter.com/SandiaLabs"></a>
+            </li>
+            <li>
+              <a class="fab fa-youtube" aria-label="YouTube" rel="noopener noreferrer" target="_blank" href="http://www.youtube.com/SandiaLabs"></a>
+            </li>
+            <li>
+              <a class="fab fa-flickr" aria-label="Flickr" rel="noopener noreferrer" target="_blank" href="http://www.flickr.com/SandiaLabs"></a>
+            </li>
+            <li>
+              <a class="fab fa-instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/SandiaLabs"></a>
+            </li>
+            <li>
+              <a class="fab fa-linkedin" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/sandia-national-laboratories"></a>
+            </li>
+            <li>
+              <a class="fas fa-rss" aria-label="RSS" rel="noopener noreferrer" target="_blank" href="https://share-ng.sandia.gov/news/resources/news_releases/feed"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  </message>
+
+
+
+  <message id='snl-footer'>
+    <footer>
+      <div class="row-col wrapper">
+        <div class="col-12">
+          <p class="corp-helpers">© 2021 National Technology and Engineering Solutions of Sandia, LLC. |
+            <a href="https://www.sandia.gov/contact_us/index.html">Questions &amp; Comments</a> |
+            <a href="https://www.sandia.gov/general/privacy-security/index.html">Privacy &amp; Security</a>
+          </p>
+          <p id="colophonLogos">
+            <a href="http://energy.gov" rel="noopener noreferrer" target="_blank">
+              <img alt="U.S. Department of Energy" height="37" longdesc="https://energy.gov" src="https://www.sandia.gov/_common/images/doe_logo_white.png" width="140" />
+            </a>
+            <a href="http://nnsa.energy.gov/" rel="noopener noreferrer" target="_blank">
+              <img alt="National Nuclear Security Administration" height="37" longdesc="http://nnsa.gov" src="https://www.sandia.gov/_common/images/nnsa_logo_white.png" width="116" />
+            </a>
+          </p>
+          <p id="colophonLegal">
+            <a href="https://www.sandia.gov">Sandia National Laboratories</a>
+            is a multimission laboratory managed and operated by National Technology and Engineering Solutions of Sandia, LLC., a wholly owned subsidiary of Honeywell International, Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA-0003525.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </message>
+ </messages>

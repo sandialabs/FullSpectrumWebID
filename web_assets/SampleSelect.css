@@ -1,0 +1,37 @@
+
+
+.SampleSelect
+{
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  border-left: solid 1px #BF616A;
+}
+
+
+.SampleSelectSpinBox
+{
+  display: inline-block;
+  margin-left: 25px;
+  width: 35px;
+}
+
+.SampleSelectLabel
+{
+  font-weight: bold;
+  display: block;
+}
+
+.SampleSelectNumSamples
+{
+  
+}
+
+.SampleSelectDesc
+{
+  margin-left: 35px;
+  display: block;
+  /* text-overflow: ellipsis; */
+  /* max-width: 75%; */  /* assumes at least 100px wide */
+}

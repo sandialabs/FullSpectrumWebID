@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+
+  <message id="ana-title">
+   GADRAS Full Spectrum Isotope ID
+  </message>
+
+  <message id="header-support">
+  Support and Contact
+  </message>
+
+  <message id="web-support">
+  Support/Contact
+  </message>
+
+  <message id="header-info">
+  More Info
+  </message>
+
+  <message id="begin-instructions">
+   Please upload a foreground spectrum file.
+  </message>
+
+  <message id="foreground-label">Foreground:</message>
+  <message id="background-label">Background:</message>
+
+  <message id="no-foreground-upload-other">
+    No foreground spectra found, please upload a different file.
+  </message>
+
+  <message id="selected-foreground-error">
+    Foreground sample selected is invalid; please select another.
+  </message>
+
+  <message id="selected-background-error">
+    Background sample selected is invalid; please select another.
+  </message>
+
+  <message id="select-sample-for">
+    Select sample for {1}
+  </message>
+
+  <message id="upload-background">
+    Please upload a background spectrum.
+  </message>
+
+  <!-- When a file has zero candidate spectra for the background -->
+  <message id="indeterminate-background">
+    Could not determine background spectrum to use, please upload a different background.
+  </message>
+
+  <!-- When there are multiple candidate background spectra. The {1} will be substituted with number of backgrounds -->
+  <message id="non-unique-background">
+    {1} background spectra found, please upload a different file with a single spectrum.
+  </message>
+
+  <!-- The number of foreground channels differ from number of background channels -->
+  <message id="num-channel-mismatch">
+    The foreground has {1} channels, but background has {2} channels; upload a different foreground or background.
+  </message>
+
+  <message id="back-fore-n-days-apart">
+    Warning: background and foreground spectra were taken {1} days apart.
+  </message>
+  
+  <message id="back-fore-n-hours-apart">
+    Warning: background and foreground spectra were taken {1} hours apart.
+  </message>
+
+  <message id="recommend-min-background">
+    Warning: recommend at least a 5-minute background spectrum.
+  </message>
+
+  <message id="background-cps-higher">
+    Warning: background count rate is higher than foreground count rate.
+  </message>
+
+  <message id="recommend-longer-foreground">
+    Warning: recommend longer foreground time.
+  </message>
+
+  <message id="no-foreground-live-time">No live-time for foreground found in file.</message>
+  <message id="no-background-live-time">No live-time for background found in file.</message>
+
+  <message id="select-drf">
+    Please select Detection System to use
+  </message>
+
+  <message id="diff-drf-selected">
+    The spectrum file indicate detector {1}
+  </message>
+
+  <message id="couldnt-determine-drf">
+    The detector type couldn't be determined from the spectrum file.
+  </message>
+
+  <message id="drf-to-use">
+    Detection System:
+  </message>
+
+  <message id="unknown-drf">
+    Unknown
+  </message>
+
+  <message id="upload-other-background">
+    <span style="cursor: pointer; color: #5E81AC;">Using background included with foreground; click here to use a different one.</span>
+  </message>
+
+  <message id="drf-not-available">The file indicates a {1} detector, but no response function available.</message>
+
+  <message id="analyzing-simple">Analyzing...</message>
+  <message id="analyzing-portal">Analyzing as radiation portal monitor data...</message>
+  <message id="analyzing-search-mode">Analyzing as search-mode data...</message>
+
+  <message id="id-result-label">Results</message>
+  <message id="none-found">None Found</message>
+
+  <message id="Nuclide">Nuclide</message>
+
+  <message id="Confidence">Confidence</message>
+  <message id="Category">Category</message>
+  <message id="CountRate">CPS</message>
+  <message id="MaxCountRate">Max CPS</message>
+
+
+  <message id="Background">Background</message>
+
+  <message id="Foreground">Foreground</message>
+
+  <message id="info-window">
+    <h2>GADRAS Full Spectrum Isotope ID</h2>
+     <div style="text-align: center;">This web-app is currently only alpha-quality.</div>
+     <div style="text-align: center; font-weight: bold; margin-top: 10px;">Results are only preliminary!</div>
+    <p>
+      Gadras Version: ${gadras-version}.<br />
+      Build Date: ${build-date}.<br />
+    </p>
+  </message>
+
+  <message id="contact-window">
+    <p>For technical support or issues found, email
+    <a href="mailto: wcjohns@sandia.gov?subject=Full Spectrum&amp;body=Session ${app-session}, Server Time ${server-time}">wcjohns@sandia.gov</a>.</p>
+    
+    <p>Please reference session <code>${app-session-short}</code> (clicking the above link will generate a pre-populated<br />
+    email), and if relevant, attach spectrum files you were analyzing.</p>
+    
+     <p>Suggestions and complaints also greatly appreciated.</p>
+
+    <p>
+      However, please note further spectral analysis, or validation of Full Spectrum application<br />
+      analysis results can not be provided.
+    </p>
+  </message>
+
+</messages>
