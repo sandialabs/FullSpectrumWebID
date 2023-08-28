@@ -23,6 +23,7 @@ To configure and build:
 cd /path/to/FullSpectrumId
 
 cp -r /path/to/gadras ./3rd_party/Gadras/v18.8.11
+cp -r /path/to/wt/prefix/resources ./web_assets/
 
 mkdir build
 cd build
